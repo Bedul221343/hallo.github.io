@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('images/9.jpg'); /* Ganti 'langit.jpg' dengan nama file gambar langit Anda */
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgba(255, 255, 255, 0); /* Latar belakang dengan transparansi */
+    color: white;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0); /* Latar belakang dengan transparansi (dalam contoh ini, 0.6) */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.message {
+    font-size: 1.2rem;
+    margin: 15px;
+}
+
+.footer {
+    background: rgba(255, 255, 255, 0); /* Latar belakang dengan transparansi */
+    color: white;
+    padding: 10px;
+}
+
+.social-buttons {
+    margin-top: 20px;
+}
+
+.social-buttons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-buttons img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.2s;
+}
+
+.social-buttons img:hover {
+    transform: scale(1.2);
+}
